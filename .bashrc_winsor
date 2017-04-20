@@ -1,0 +1,18 @@
+
+######## cwinsor alias and environment variables
+alias lsa="ls -la"
+
+#PYTHONPATH="\
+#:/home/pi/bin/\
+#:/home/pi/junk:/home/pi/junk2/\
+#:/home/pi/GrovePi/Software/Python/\
+#:/home/pi"
+#export PYTHONPATH
+
+#alias doit='cd; cd PredixMachine/machine/bin/predix/; chmod -R 777 ../../../*; ./start_container.sh clean 2>&1 | tee log.log'
+
+## sudo ln -s i2c-3 i2c-1
+
+
+alias gitlog='git log --pretty=oneline --decorate --graph --all'
+alias gitstat='git log --pretty=oneline --stat --all'
