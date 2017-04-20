@@ -8,6 +8,7 @@ DATE_TIME=`date +%F-%H%M%S`
 cd $HOME_DIR
 if ! [ -d ./machine ]; then
     echo "./machine does not exist - you need to untar the PredixMachineDebug image"
+    echo "try tar xvzf PredixMachineDebug-16.4.1.....tar"
     exit 2
 fi
 
